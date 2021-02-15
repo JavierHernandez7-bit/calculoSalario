@@ -68,7 +68,7 @@ namespace calculador_de_salario
             combBoxPuesto.Items.Add("Subgerente");
             combBoxPuesto.Items.Add("Secretaria");
             fecha.Text = DateTime.Now.ToLongDateString();
-            hora.Text = DateTime.Now.ToLongTimeString();
+            hora.Text = DateTime.Now.ToShortTimeString();
         }
 
         private void button2_Click(object sender, EventArgs e)
